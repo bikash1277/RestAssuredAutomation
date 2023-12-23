@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="D:/Java_Workspace/RestAssuredAutomationPOC/src/test/java/org/example/chaining">
+        <classes>
+            <class name="org.example.chaining.CreateUser"/>
+            <class name="org.example.chaining.GetUser"/>
+            <class name="org.example.chaining.UpdateUser"/>
+            <class name="org.example.chaining.DeleteUser"/>
+        </classes>
+    </test>
+</suite>
