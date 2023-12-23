@@ -1,4 +1,4 @@
-package org.example;
+package org.example.json;
 
 import org.testng.annotations.Test;
 

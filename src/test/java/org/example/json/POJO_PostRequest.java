@@ -1,4 +1,4 @@
-package org.example;
+package org.example.json;
 
 class POJO_PostRequest {
     String name;
