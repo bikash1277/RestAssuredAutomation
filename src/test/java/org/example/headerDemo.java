@@ -19,7 +19,7 @@ public class headerDemo {
                 .statusCode(200)
                 .header("Content-Encoding", "gzip").and()
                 .header("Content-Type", "text/html; charset=ISO-8859-1")
-                .log().all()
+                .log().headers()
         ;
     }
 

@@ -19,7 +19,7 @@ public class cookiesDemo {
                 .get("https://www.google.com/")
                 .then()
                 .statusCode(200)
-                .log().all()
+                .log().cookies()
         ;
     }
 
