@@ -7,7 +7,7 @@
     <test verbose="2" preserve-order="true" name="D:/Java_Workspace/RestAssuredAutomation">
 
         <classes>
-            <class name="api.test.UserTests">
+            <class name="api.test.UserPropertiesTests">
             </class>
         </classes>
     </test>

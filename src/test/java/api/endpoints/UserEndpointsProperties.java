@@ -19,7 +19,7 @@ public class UserEndpointsProperties {
     }
 
     public static Response createUser(User payload) {
-        String post = getURL().getString("post_user_url");
+        String post = Routes.post_user_url;
         Response response = given()
                 .header("accept", "application/json")
                 .header("Content-Type", "application/json")
